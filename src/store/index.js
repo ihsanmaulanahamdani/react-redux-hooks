@@ -5,7 +5,7 @@ import thunk from "redux-thunk";
 import counterReducer from "./counter/counter.reducer";
 
 const rootReducer = combineReducers({
-  counter: counterReducer
+  counter: counterReducer,
 });
 
 const store = createStore(
